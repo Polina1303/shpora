@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,169 @@
   to {
     transform: rotate(360deg);
   }
+}  */
+
+
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
 }
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.ant-layout-footer {
+  padding: 24px 50px;
+  color: rgba(0,0,0,.85);
+  font-size: 14px;
+  background: #f0f2f5;
+}
+
+.layout.ant-layout-header {
+ padding: 0;
+}
+
+
+
+.react{
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.header .logo {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+   
+  align-items: center;
+}
+
+
+.home h1{
+  color:#61dafb;
+ font-size: 50px;
+ padding-top: 20px;
+}
+
+
+
+.home{
+  text-align: center;
+}
+
+.props{
+  line-height: 1.5;
+}
+.props h1{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.props p{
+  font-size: 20px;
+}
+
+.components h1{
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.components p{
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.components{
+  line-height: 1.5;
+}
+
+.componentscode{
+ border: 1px solid #282c34;
+ background-color: #282c34;
+ color: #fff;
+ font-weight:700 ;
+ border-radius: 10px;
+ padding-left: 20px;
+ padding-top: 10px;
+ margin-bottom: 10px;
+}
+
+
+.onclick{
+  line-height: 1.5;
+}
+.onclick h1{
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.onclick p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.life{
+  line-height: 1.5;
+}
+
+.life h1{
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.life p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.fragment{
+  line-height: 1.5;
+}
+
+.fragment h1{
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.fragment p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.hook{
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.form{
+  line-height: 1.5;
+}
+
+.form h1{
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.form p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
