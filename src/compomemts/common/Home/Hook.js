@@ -19,30 +19,30 @@ const text3 = `
  контекста. Текущее значение контекста определяется пропом value ближайшего <MyContext.Provider> над вызывающим компонентом в 
  дереве.
 `;
-function Hooks(){
-  
+function Hooks() {
+
   const onChange = (key) => {
     console.log(key)
   };
 
   return (
-      <>
-    <h1 className="hook">Хуки</h1>
-    <Collapse defaultActiveKey={['1']} onChange={onChange}>
-      <Panel header="useState" key="1">
-        <p>{text}</p>
-      </Panel>
-      <Panel header="useEffect" key="2">
-        <p>{text2}</p>
-      </Panel>
-      <Panel header="useContext" key="3">
-        <p>{text3}</p>
-      </Panel>
-    </Collapse>
+    <>
+      <h1 className="hook">Хуки</h1>
+      <Collapse defaultActiveKey={['1']} onChange={onChange}>
+        <Panel header="useState" key="1">
+          <p>{text}</p>
+        </Panel>
+        <Panel header="useEffect" key="2">
+          <p>{text2}</p>
+        </Panel>
+        <Panel header="useContext" key="3">
+          <p>{text3}</p>
+        </Panel>
+      </Collapse>
     </>
   );
-  
-    
+
+
 }
 
 export default Hooks
